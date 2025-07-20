@@ -36,7 +36,16 @@ const DataShow=()=>{
     })
     return(
         <>
-        {ans}
+        <div style={{display:"flex",
+    justifyContent:"center",
+    padding:"10px",
+    fontSize:"2rem",
+    alignItems:"center"}}>
+            <p>DROP ZONE</p>
+        </div>
+       <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",gap:"1rem"}}>
+         {ans}
+       </div>
         </>
     )
 }
