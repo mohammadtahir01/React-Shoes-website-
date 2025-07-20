@@ -9,8 +9,8 @@ const NavTop=()=>{
         <>
          <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
-          <Nav className="me-auto">
+          <Navbar.Brand href="#home"><img src={logo} alt="" style={{height:"32px"}} /></Navbar.Brand>
+          <Nav className="me-auto d-flex justify-content-center w-100">
             <Nav.Link as={Link} to="home">Home</Nav.Link>
             <Nav.Link as={Link} to="men">Men</Nav.Link>
             <Nav.Link as={Link} to="women">Women</Nav.Link>
