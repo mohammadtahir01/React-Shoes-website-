@@ -10,6 +10,7 @@ import { FaHeart } from "react-icons/fa";
 const NavTop=()=>{
     return(
         <>
+        {/* <div style={{position:"sticky"}}> */}
          <Navbar data-bs-theme="dark" style={{backgroundColor: "#343a40"}}>
         <Container>
           <Navbar.Brand href="#home"><img src={logo} alt="" style={{height:"32px"}} /></Navbar.Brand>
@@ -26,6 +27,7 @@ const NavTop=()=>{
         </Container>
        
       </Navbar>
+      {/* </div> */}
     </>
     )
 }
