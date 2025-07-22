@@ -6,8 +6,13 @@ import logo from "../image/logo.webp"
 //react icon 
 import { FaShoppingCart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+//toolkit
+import { useSelector } from 'react-redux';
 
 const NavTop=()=>{
+  const data = useSelector(state=>state.Card.Task);
+  // console.log(data);
+  const newdata = data.length;
     return(
         <>
         {/* <div style={{position:"sticky"}}> */}
@@ -23,6 +28,7 @@ const NavTop=()=>{
            <div style={{display:"flex",gap:"1rem",color:"white",fontSize:"1.5rem"}}>
           <FaHeart />
           <FaShoppingCart />
+          <p>{newdata}</p>
         </div>
         </Container>
        

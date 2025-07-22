@@ -4,13 +4,19 @@ const ShoesSlice=createSlice({
     name:"card",
 
     initialState:{
-       CardAdd:[]
+        Task:[]
     },
-    reducer:{
-        addtoCard:(state,action)=>{
-            state.CardAdd.push(action.payload)
+    reducers:{
+        AddtoCard:(state,action)=>{
+           let val = state.Task.filter((key)=> key.id === action.payload.id)
+
+           if(val.length >=1){
+            alert("already added!!")
+           }else{
+            state.Task.push(action.payload)
+           }
         }
     }
 })
-export const {addtoCard} = ShoesSlice.actions;
-export default ShoesSlice.reducer
+export const {AddtoCard} = ShoesSlice.actions;
+export default ShoesSlice.reducer;
