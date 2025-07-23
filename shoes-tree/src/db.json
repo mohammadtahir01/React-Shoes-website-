@@ -70,5 +70,64 @@
             "OldPrice":"799",
             "Image":"https://www.shoetree.io/cdn/shop/files/AB-JM-1-Beige_1.jpg?v=1740231030&width=360"
         }
+    ],
+
+    "men":[
+        {
+            "Name":"LA BOTTE",
+            "Title":"Men Camel Solid Loafers",
+            "Price":"1349",
+            "OldPrice":"4449",
+            "Image":"https://shoetree.io/cdn/shop/files/CBZ-SS21-0008-TAN-1-min_ed91382f-0e48-4394-b921-0bbca516e17c.jpg?v=1736848833&width=360"
+        },
+         {
+            "Name":"Toni Rossi",
+            "Title":"Men Black Solid Loafers",
+            "Price":"1998",
+            "OldPrice":"4995",
+            "Image":"https://www.shoetree.io/cdn/shop/files/NEVIO_BLACK_1_59ebe08a-4137-4de7-b762-1c20e4d2701b.jpg?v=1738330553&width=360"
+        },
+         {
+            "Name":"LA BOTTE",
+            "Title":"Men Black Basket Weave Textured Driving Shoes",
+            "Price":"2080",
+            "OldPrice":"5149",
+            "Image":"https://www.shoetree.io/cdn/shop/files/CBZ-AW21-LB1307_Black_1_7b49f778-b4f1-4776-af53-5656167675cb.jpg?v=1736848193&width=360"
+        },
+         {
+            "Name":"GABICCI",
+            "Title":"Men Coffee Animal Print Chelsea Boots",
+            "Price":"3245",
+            "OldPrice":"6490",
+            "Image":"https://www.shoetree.io/cdn/shop/files/1027104_SHIRAZ_1_8804238c-2bc8-4474-a45c-0255df5f042f.jpg?v=1739758134&width=360"
+        },
+         {
+            "Name":"Fury",
+            "Title":"Men Clogs",
+            "Price":"1449",
+            "OldPrice":"3349",
+            "Image":"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1723731687_7884369.jpg?format=webp&w=300&dpr=1.5"
+        },
+         {
+            "Name":"Reverse Mafia",
+            "Title":"Men Low Tops Sneakers",
+            "Price":"2199",
+            "OldPrice":"4999",
+            "Image":"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1732894293_6417459.jpg?format=webp&w=300&dpr=1.5"
+        },
+          {
+            "Name":"Limestone",
+            "Title":"Men Low Top Sneakers",
+            "Price":"2399",
+            "OldPrice":"4599",
+            "Image":"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741277081_8044648.jpg?format=webp&w=300&dpr=1.5"
+        },
+          {
+            "Name":"The Dark Knight",
+            "Title":"Men High Top Sneakers",
+            "Price":"2999",
+            "OldPrice":"7099",
+            "Image":"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1708668433_3948163.jpg?format=webp&w=300&dpr=1.5"
+        }
     ]
-}
+}       

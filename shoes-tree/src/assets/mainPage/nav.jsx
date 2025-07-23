@@ -26,9 +26,17 @@ const NavTop=()=>{
             <Nav.Link as={Link} to="search">Search</Nav.Link>
           </Nav>
            <div style={{display:"flex",gap:"1rem",color:"white",fontSize:"1.5rem"}}>
+            <div>
           <FaHeart />
+          </div>
+          <div style={{display:"flex",alignItems:"center",position:"relative",top:"5px"}}>
           <FaShoppingCart />
-          <p>{newdata}</p>
+          {
+            newdata == 0 ?(<>
+            <span style={{display:"none"}}><p>{newdata}</p></span></>):(<>
+            <p style={{fontSize:"12px"}}>{newdata}</p></>)
+          }
+          </div>
         </div>
         </Container>
        
