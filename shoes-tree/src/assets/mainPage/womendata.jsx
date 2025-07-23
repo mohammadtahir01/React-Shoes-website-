@@ -1,27 +1,26 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
-//react bootstrap
+import { use, useEffect, useState } from "react";
+//react card
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-//toolkit
+//toolkit 
 import { useDispatch } from "react-redux";
 import { AddtoCard } from "../../cardSlice";
 
-const Men = () => {
-    const [menData, setMenData] = useState([]);
+const Women = () => {
+    const [Women, setWomen] = useState([]);
     const despach = useDispatch();
 
     const onload = async () => {
-        let api = "http://localhost:3000/men"
+        let api = "http://localhost:3000/women";
         let res = await axios.get(api);
-        console.log(res.data)
-        setMenData(res.data)
+        setWomen(res.data);
     }
     useEffect(() => {
         onload();
     }, [])
 
-    let ans = menData.map((item) => {
+    const ans = Women.map((item) => {
         return (
 
             <Card style={{ width: '18rem' }}>
@@ -29,22 +28,22 @@ const Men = () => {
                 <Card.Body>
                     <Card.Title>{item.Name}</Card.Title>
                     <Card.Text>
-                       {item.Title} <br />
-                       Price: {item.Price} &nbsp;&nbsp;
-                       <span style={{color:"gray",textDecoration:"line-through"}}>{item.OldPrice}</span>
+                        {item.Title} <br />
+                        Price: {item.Price} &nbsp;&nbsp;
+                        <span style={{color:'gray',textDecoration:"line-through"}}>{item.OldPrice}</span>
                     </Card.Text>
                     <Button variant="primary" onClick={()=>despach(AddtoCard({id:item.id,name:item.Name,image:item.Image
-                              ,description:item.Title,OldPrice:item.OldPrice,price:item.Price,qnty:1}))}>Go somewhere</Button>
+          ,description:item.Title,OldPrice:item.OldPrice,price:item.Price,qnty:1}))}>Go somewhere</Button>
                 </Card.Body>
             </Card>
         )
     })
     return (
         <>
-          <div style={{display:"flex",flexWrap:"wrap",gap:"2rem",justifyContent:"center"}}>
-            {ans}
-          </div>
+            <div style={{display:"flex",flexWrap:"wrap",justifyContent:"space-around",gap:"20px"}}>
+                {ans}
+            </div>
         </>
     )
 }
-export default Men;
+export default Women;

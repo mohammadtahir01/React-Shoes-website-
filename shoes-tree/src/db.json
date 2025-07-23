@@ -129,5 +129,72 @@
             "OldPrice":"7099",
             "Image":"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1708668433_3948163.jpg?format=webp&w=300&dpr=1.5"
         }
+    ],
+
+    "women":[
+        {
+          "Name":"ReLive Knit Sneakers",
+          "Title":"Tusk Ivory / Brown Sole",
+          "Price":"1999",
+          "OldPrice":"3699",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-RLSneakers-IvoryBrown-_WebOptimized_d_db9ae5f1-9a22-43c5-91be-7d7d61d3c932.jpg?v=1724988313&width=450"
+
+        },
+         {
+          "Name":"Spotlight Slip Ons",
+          "Title":" Hale Black",
+          "Price":"1999",
+          "OldPrice":"3299",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-SpolightSlipOn-HaleBlack-_WebOptimized_c.jpg?v=1724988427&width=450"
+
+        },
+         {
+          "Name":"Spotlight Slip Ons",
+          "Title":"Hale Black / Red Sole",
+          "Price":"1999",
+          "OldPrice":"3299",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-SpolightSlipOn-HaleBlack-RedSole-_WebOptimized_c.jpg?v=1724988409&width=450"
+
+        },
+         {
+          "Name":"Ballet Flats For Women",
+          "Title":"Black",
+          "Price":"1499",
+          "OldPrice":"1999",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-BF-Black_WebCatalog_c.jpg?v=1749038788&width=450"
+
+        },
+         {
+          "Name":"Ballet Flats For Women",
+          "Title":"Ivory-Black",
+          "Price":"1499",
+          "OldPrice":"3399",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-BF-Ivory_WebCatalog_c.jpg?v=1749038263&width=450"
+
+        },
+         {
+          "Name":"Plush Square Flats",
+          "Title":"Black",
+          "Price":"1049",
+          "OldPrice":"2199",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-PSF-Black-_WebOptimized_b_2703f943-547c-47f0-a825-649472a8796c.jpg?v=1724988159&width=450"
+
+        },
+         {
+          "Name":"Plush Square Flats",
+          "Title":"Burgundy",
+          "Price":"1049",
+          "OldPrice":"2149",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-PSF-Brown-_WebOptimized_b_8c75d493-b2f4-48b7-9c21-e1ab599ef2f0.jpg?v=1724988159&width=450"
+
+        },
+        {
+          "Name":"Metallic Square Flats",
+          "Title":"Grey-Silver",
+          "Price":"999",
+          "OldPrice":"2149",
+          "Image":"https://cdn.shopify.com/s/files/1/2428/5565/files/ND-MSF-Grey-_WebOptimized_a_c2da36dd-ca6d-4588-8dd1-dc3488abf691.jpg?v=1724988117&width=450"
+
+        }
     ]
 }       

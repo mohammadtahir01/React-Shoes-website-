@@ -1,18 +1,21 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import logo from "../image/logo.webp"
 //react icon 
 import { FaShoppingCart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 //toolkit
 import { useSelector } from 'react-redux';
+//useNavigate
+import React from 'react';
 
 const NavTop=()=>{
   const data = useSelector(state=>state.Card.Task);
   // console.log(data);
   const newdata = data.length;
+  const naviagte = useNavigate();
     return(
         <>
         {/* <div style={{position:"sticky"}}> */}
@@ -30,7 +33,7 @@ const NavTop=()=>{
           <FaHeart />
           </div>
           <div style={{display:"flex",alignItems:"center",position:"relative",top:"5px"}}>
-          <FaShoppingCart />
+          <FaShoppingCart onClick={()=>naviagte("/shop")}/>
           {
             newdata == 0 ?(<>
             <span style={{display:"none"}}><p>{newdata}</p></span></>):(<>
