@@ -32,8 +32,8 @@ const Women = () => {
                         Price: {item.Price} &nbsp;&nbsp;
                         <span style={{color:'gray',textDecoration:"line-through"}}>{item.OldPrice}</span>
                     </Card.Text>
-                    <Button variant="primary" onClick={()=>despach(AddtoCard({id:item.id,name:item.Name,image:item.Image
-          ,description:item.Title,OldPrice:item.OldPrice,price:item.Price,qnty:1}))}>Go somewhere</Button>
+                    <Button variant="primary" onClick={()=>despach(AddtoCard({id:item.id,Name:item.Name,Image:item.Image
+                    ,Title:item.Title,OldPrice:item.OldPrice,Price:item.Price,qnty:1}))}>Go somewhere</Button>
                 </Card.Body>
             </Card>
         )
